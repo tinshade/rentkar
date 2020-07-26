@@ -37,10 +37,10 @@ const Footer = () =>{
                     <br/>
                     <div className="row contact">
                       <div className="col-lg-6 col-sm-12 col-md-6">
-                        <h6><i className="p-2 fas fa-envelope rounded-circle"></i>&amp;emsp;<span>iyengar.abhi@gmail.com</span></h6>
+                        <h6><i className="p-2 fas fa-envelope rounded-circle"></i>&emsp;<span>iyengar.abhi@gmail.com</span></h6>
                       </div>
                       <div className="col-lg-6 col-sm-12 col-md-6">
-                        <h6><i className="p-2 fas fa-phone rounded-circle"></i>&amp;emsp;<span>8793656170</span></h6>
+                        <h6><i className="p-2 fas fa-phone rounded-circle"></i>&emsp;<span>8793656170</span></h6>
                       </div>
                     </div>
                   </div>
