@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import './App.css';
+import Header from './components/UI/Header';
+import MajorCarousel from './components/UI/MajorCarousel';
+import CovidBanner from './components/UI/CovidBanner';
+import ExploreSection from './components/UI/ExploreSection'
+import WhatsHotSection from './components/UI/WhatsHotSection';
+import LYISection from './components/UI/LYISection';
+import OurPromises from './components/UI/OurPromises';
+import CustomerReview from './components/UI/CustomerReview';
+import Footer from './components/UI/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      <MajorCarousel/>
+      <br/>
+      <CovidBanner/>
+      <ExploreSection/>
+      <WhatsHotSection/>
+      <LYISection/>
+      <OurPromises/>
+      <CustomerReview/>
+      <Footer/>
     </div>
   );
 }
