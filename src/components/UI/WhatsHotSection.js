@@ -13,7 +13,7 @@ const WhatsHotSection = () =>{
           <div className="gallery wh js-flickity container mt-5" style={{marginBottom: "5%"}}>
             <div className="gallery-cell col-lg-4 col-md-4 col-sm-12 col-lg-4 col-md-4 col-sm-12">
               <div className="card shadow rounded-card">
-                <img src={wh5} height="205px" className="rounded-image card-img-top"/>
+                <img alt="" src={wh5} height="205px" className="rounded-image card-img-top"/>
                 <div className="card-body float-left">
                     <small className="text-muted">Starting at</small>
                     <div className="card-header">
@@ -27,7 +27,7 @@ const WhatsHotSection = () =>{
                 </div>
                 <div className="gallery-cell col-lg-4 col-md-4 col-sm-12">
                   <div className="card shadow rounded-card">
-                    <img src={wh2} height="205px" className="rounded-image card-img-top"/>
+                    <img alt="" src={wh2} height="205px" className="rounded-image card-img-top"/>
                     <div className="card-body float-left">
                         <small className="text-muted">Starting at</small>
                         <div className="card-header">
@@ -41,7 +41,7 @@ const WhatsHotSection = () =>{
                 </div>
                 <div className="gallery-cell col-lg-4 col-md-4 col-sm-12">
                   <div className="card shadow rounded-card">
-                    <img src={wh3} height="205px" className="rounded-image card-img-top"/>
+                    <img alt="" src={wh3} height="205px" className="rounded-image card-img-top"/>
                     <div className="card-body float-left">
                         <small className="text-muted">Starting at</small>
                         <div className="card-header">
@@ -55,7 +55,7 @@ const WhatsHotSection = () =>{
                 </div>
                 <div className="gallery-cell col-lg-4 col-md-4 col-sm-12">
                   <div className="card shadow rounded-card">
-                    <img src={wh4} height="205px" className="rounded-image card-img-top"/>
+                    <img alt="" src={wh4} height="205px" className="rounded-image card-img-top"/>
                     <div className="card-body float-left">
                         <small className="text-muted">Starting at</small>
                         <div className="card-header">
@@ -69,7 +69,7 @@ const WhatsHotSection = () =>{
                 </div>
                 <div className="gallery-cell col-lg-4 col-md-4 col-sm-12">
                   <div className="card shadow rounded-card">
-                    <img src={wh1} height="205px" className="rounded-image card-img-top"/>
+                    <img alt="" src={wh1} height="205px" className="rounded-image card-img-top"/>
                     <div className="card-body float-left">
                         <small className="text-muted">Starting at</small>
                         <div className="card-header">

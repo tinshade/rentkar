@@ -18,17 +18,17 @@ const MajorCarousel = () =>{
                 <div className="carousel-inner container mt-5">
                     <div className="carousel-item active">
                         <div className="rounded-card shadow">
-                            <img src={s1} className="img-fluid rounded-image"/>
+                            <img alt="" src={s1} className="img-fluid rounded-image"/>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="rounded-card shadow">
-                            <img src={s1} className="img-fluid rounded-image"/>
+                            <img alt="" src={s1} className="img-fluid rounded-image"/>
                         </div>
                     </div>
                     <div className="carousel-item">
                         <div className="rounded-card shadow">
-                            <img src={s1} className="img-fluid rounded-image"/>
+                            <img alt="" src={s1} className="img-fluid rounded-image"/>
                         </div>
                     </div>
                 </div>

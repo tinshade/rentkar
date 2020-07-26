@@ -8,22 +8,22 @@ const Footer = () =>{
           <div className="container pl-2 pr-2">
               <div className="row pt-5 text-center">
                 <div className="col-lg-2 col-md-2 col-sm-12">
-                  <img src={logo} className="dtop footer-logo img-fluid"/>
+                  <img src={logo} alt="" className="dtop footer-logo img-fluid"/>
                 </div>
                 <div className="col-lg-2 col-md-2 col-sm-12 wborder">
-                  <a href="#">POLICIES</a>
+                  <a href="/">POLICIES</a>
                 </div>
                 <div className="col-lg-2 col-md-2 col-sm-12 wborder">
-                  <a href="#">ABOUT US</a>
+                  <a href="/">ABOUT US</a>
                 </div>
                 <div className="col-lg-2 col-md-2 col-sm-12 wborder">
-                  <a href="#">OUR BENEFITS</a>
+                  <a href="/">OUR BENEFITS</a>
                 </div>
                 <div className="col-lg-2 col-md-2 col-sm-12 wborder">
-                  <a href="#">FAQ</a>
+                  <a href="/">FAQ</a>
                 </div>
                 <div className="col-lg-2 col-md-2 col-sm-12">
-                  <a href="#">BLOG</a>
+                  <a href="/">BLOG</a>
                 </div>
               </div>
               <br/>
@@ -37,10 +37,10 @@ const Footer = () =>{
                     <br/>
                     <div className="row contact">
                       <div className="col-lg-6 col-sm-12 col-md-6">
-                        <h6><i className="p-2 fas fa-envelope rounded-circle"></i>&emsp;<span>iyengar.abhi@gmail.com</span></h6>
+                        <h6><i className="p-2 fas fa-envelope rounded-circle"></i>&amp;emsp;<span>iyengar.abhi@gmail.com</span></h6>
                       </div>
                       <div className="col-lg-6 col-sm-12 col-md-6">
-                        <h6><i className="p-2 fas fa-phone rounded-circle"></i>&emsp;<span>8793656170</span></h6>
+                        <h6><i className="p-2 fas fa-phone rounded-circle"></i>&amp;emsp;<span>8793656170</span></h6>
                       </div>
                     </div>
                   </div>
@@ -78,145 +78,145 @@ const Footer = () =>{
               <br/>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="#policies" role="button" aria-expanded="false" aria-controls="policies">
+                <a data-toggle="collapse" href="/policies" role="button" aria-expanded="false" aria-controls="policies">
                   POLICIES
                 </a>
-                <a data-toggle="collapse" href="#policies" role="button" aria-expanded="false" aria-controls="policies">
+                <a data-toggle="collapse" href="/policies" role="button" aria-expanded="false" aria-controls="policies">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
               <hr/>
               <div className="collapse" id="policies">
                 <div className="container sub">
-                  <a href="#">Shipping Policy</a>
+                  <a href="/">Shipping Policy</a>
                   <br/>
-                  <a href="#">Return & Refund</a>
+                  <a href="/">Return &amp; Refund</a>
                   <br/>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/">Privacy Policy</a>
                   <br/>
-                  <a href="#">Rental Terms & Conditions</a>
+                  <a href="/">Rental Terms &amp; Conditions</a>
                   <br/>
-                  <a href="#">Terms of Use</a>
+                  <a href="/">Terms of Use</a>
                   <br/>
                 </div>
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="#aboutus" role="button" aria-expanded="false" aria-controls="aboutus">
+                <a data-toggle="collapse" href="/aboutus" role="button" aria-expanded="false" aria-controls="aboutus">
                   ABOUT US
                 </a>
-                <a data-toggle="collapse" href="#aboutus" role="button" aria-expanded="false" aria-controls="aboutus">
+                <a data-toggle="collapse" href="/aboutus" role="button" aria-expanded="false" aria-controls="aboutus">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
               <hr/>
               <div className="collapse" id="aboutus">
                 <div className="container sub">
-                  <a href="#">Shipping Policy</a>
+                  <a href="/">Shipping Policy</a>
                   <br/>
-                  <a href="#">Return & Refund</a>
+                  <a href="/">Return &amp; Refund</a>
                   <br/>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/">Privacy Policy</a>
                   <br/>
-                  <a href="#">Rental Terms & Conditions</a>
+                  <a href="/">Rental Terms &amp; Conditions</a>
                   <br/>
-                  <a href="#">Terms of Use</a>
+                  <a href="/">Terms of Use</a>
                   <br/>
                 </div>
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="#CONTACT" role="button" aria-expanded="false" aria-controls="CONTACT">
+                <a data-toggle="collapse" href="/CONTACT" role="button" aria-expanded="false" aria-controls="CONTACT">
                   CONTACT
                 </a>
-                <a data-toggle="collapse" href="#CONTACT" role="button" aria-expanded="false" aria-controls="CONTACT">
+                <a data-toggle="collapse" href="/CONTACT" role="button" aria-expanded="false" aria-controls="CONTACT">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
               <hr/>
               <div className="collapse" id="CONTACT">
                 <div className="container sub">
-                  <a href="#">Shipping Policy</a>
+                  <a href="/">Shipping Policy</a>
                   <br/>
-                  <a href="#">Return & Refund</a>
+                  <a href="/">Return &amp; Refund</a>
                   <br/>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/">Privacy Policy</a>
                   <br/>
-                  <a href="#">Rental Terms & Conditions</a>
+                  <a href="/">Rental Terms &amp; Conditions</a>
                   <br/>
-                  <a href="#">Terms of Use</a>
+                  <a href="/">Terms of Use</a>
                   <br/>
                 </div>
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="#OURBENEFITS" role="button" aria-expanded="false" aria-controls="OURBENEFITS">
+                <a data-toggle="collapse" href="/OURBENEFITS" role="button" aria-expanded="false" aria-controls="OURBENEFITS">
                   OUR BENEFITS
                 </a>
-                <a data-toggle="collapse" href="#OURBENEFITS" role="button" aria-expanded="false" aria-controls="OURBENEFITS">
+                <a data-toggle="collapse" href="/OURBENEFITS" role="button" aria-expanded="false" aria-controls="OURBENEFITS">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
               <hr/>
               <div className="collapse" id="OURBENEFITS">
                 <div className="container sub">
-                  <a href="#">Shipping Policy</a>
+                  <a href="/">Shipping Policy</a>
                   <br/>
-                  <a href="#">Return & Refund</a>
+                  <a href="/">Return &amp; Refund</a>
                   <br/>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/">Privacy Policy</a>
                   <br/>
-                  <a href="#">Rental Terms & Conditions</a>
+                  <a href="/">Rental Terms &amp; Conditions</a>
                   <br/>
-                  <a href="#">Terms of Use</a>
+                  <a href="/">Terms of Use</a>
                   <br/>
                 </div>
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="#FAQ" role="button" aria-expanded="false" aria-controls="FAQ">
+                <a data-toggle="collapse" href="/FAQ" role="button" aria-expanded="false" aria-controls="FAQ">
                   FAQ
                 </a>
-                <a data-toggle="collapse" href="#FAQ" role="button" aria-expanded="false" aria-controls="FAQ">
+                <a data-toggle="collapse" href="/FAQ" role="button" aria-expanded="false" aria-controls="FAQ">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
               <hr/>
               <div className="collapse" id="FAQ">
                 <div className="container sub">
-                  <a href="#">Shipping Policy</a>
+                  <a href="/">Shipping Policy</a>
                   <br/>
-                  <a href="#">Return & Refund</a>
+                  <a href="/">Return &amp; Refund</a>
                   <br/>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/">Privacy Policy</a>
                   <br/>
-                  <a href="#">Rental Terms & Conditions</a>
+                  <a href="/">Rental Terms &amp; Conditions</a>
                   <br/>
-                  <a href="#">Terms of Use</a>
+                  <a href="/">Terms of Use</a>
                   <br/>
                 </div>
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="#BLOG" role="button" aria-expanded="false" aria-controls="BLOG">
+                <a data-toggle="collapse" href="/BLOG" role="button" aria-expanded="false" aria-controls="BLOG">
                   BLOG
                 </a>
-                <a data-toggle="collapse" href="#BLOG" role="button" aria-expanded="false" aria-controls="BLOG">
+                <a data-toggle="collapse" href="/BLOG" role="button" aria-expanded="false" aria-controls="BLOG">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
               <hr/>
               <div className="collapse" id="BLOG">
                 <div className="container sub">
-                  <a href="#">Shipping Policy</a>
+                  <a href="/">Shipping Policy</a>
                   <br/>
-                  <a href="#">Return & Refund</a>
+                  <a href="/">Return &amp; Refund</a>
                   <br/>
-                  <a href="#">Privacy Policy</a>
+                  <a href="/">Privacy Policy</a>
                   <br/>
-                  <a href="#">Rental Terms & Conditions</a>
+                  <a href="/">Rental Terms &amp; Conditions</a>
                   <br/>
-                  <a href="#">Terms of Use</a>
+                  <a href="/">Terms of Use</a>
                   <br/>
                 </div>
               </div>

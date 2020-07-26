@@ -16,7 +16,7 @@ const CustomerReview = () =>{
               <div className="card shadow rounded-card">
                 <div className="card-body">
                   <div className="d-flex">
-                    <img src={guy1} height="75px" width="75px" className="img-fluid rounded-circle"/>
+                    <img alt="" src={guy1} height="75px" width="75px" className="img-fluid rounded-circle"/>
                     <div className="container mt-2">
                       <h6 className="secondary-cname">Shivam Wadhwa</h6>
                       <div className="c-star">
@@ -38,7 +38,7 @@ const CustomerReview = () =>{
               <div className="card shadow rounded-card">
                 <div className="card-body">
                   <div className="d-flex">
-                    <img src={guy2} height="75px" width="75px" className="img-fluid rounded-circle"/>
+                    <img alt="" src={guy2} height="75px" width="75px" className="img-fluid rounded-circle"/>
                     <div className="container mt-2">
                       <h6 className="secondary-cname">Shivam Wadhwa</h6>
                       <div className="c-star">
@@ -60,7 +60,7 @@ const CustomerReview = () =>{
               <div className="card shadow rounded-card">
                 <div className="card-body">
                   <div className="d-flex">
-                    <img src={guy2} height="75px" width="75px" className="img-fluid rounded-circle"/>
+                    <img alt="" src={guy2} height="75px" width="75px" className="img-fluid rounded-circle"/>
                     <div className="container mt-2">
                       <h6 className="secondary-cname">Shivam Wadhwa</h6>
                       <div className="c-star">
@@ -82,7 +82,7 @@ const CustomerReview = () =>{
               <div className="card shadow rounded-card">
                 <div className="card-body">
                   <div className="d-flex">
-                    <img src={guy1} height="75px" width="75px" className="img-fluid rounded-circle"/>
+                    <img alt="" src={guy1} height="75px" width="75px" className="img-fluid rounded-circle"/>
                     <div className="container mt-2">
                       <h6 className="secondary-cname">Shivam Wadhwa</h6>
                       <div className="c-star">

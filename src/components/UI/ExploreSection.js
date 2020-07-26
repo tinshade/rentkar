@@ -11,13 +11,13 @@ const ExploreSection = () =>{
             <div className="row">
                 <div className="col-md-3 col-lg-3 col-sm-12">
                     <div className="card shadow rounded-card" style={{padding:"0px"}}>
-                        <img className="card-img-top rounded-image" src={ex1} height="205px"/>
+                        <img alt="" className="card-img-top rounded-image" src={ex1} height="205px"/>
                         <h5 className="card-header mt-2 mb-2">MUSICAL</h5>
                     </div>
                 </div>
                 <div className="col-md-3 col-lg-3 col-sm-12">
                     <div className="card shadow rounded-card" style={{padding:"0px"}}>
-                        <img className="card-img-top rounded-image" src={ex2} height="205px"/>
+                        <img alt="" className="card-img-top rounded-image" src={ex2} height="205px"/>
                         <h5 className="card-header mb-2 mt-2 ">GAMING</h5>
                     </div>
                 </div>
