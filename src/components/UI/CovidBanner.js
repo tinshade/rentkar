@@ -35,7 +35,7 @@ const CovidBanner = () =>{
                     <button className="btn text-primary kmb" style={{padding: "2%"}}>Know more</button>
                   </div>
               </div>
-              <div className="container-fluid dtop faint" >
+              <div className="container-fluid dtop faint" style={{marginRight: "0.5rem"}}>
                   <div className="row mt-3">
                       <div className="col-md-5 col-lg-5 col-sm-12">
                           <img alt="" src={c2} className="mt-2 img-responsive" height="100px" width="100px"/>
@@ -47,7 +47,7 @@ const CovidBanner = () =>{
                       </div>
                   </div>
               </div>
-              <div className="container-fluid dtop faint" >
+              <div className="container-fluid dtop faint" style={{marginRight: "0.5rem"}}>
                   <div className="row mt-3">
                       <div className="col-md-5 col-lg-5 col-sm-12">
                           <img alt="" src={c3} className="mt-2 img-responsive" height="100px" width="100px"/>
