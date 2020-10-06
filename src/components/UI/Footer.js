@@ -1,5 +1,9 @@
-import React from 'react'
-import logo from '../../assets/logolight.png'
+import React from 'react';
+import logo from '../../assets/footerlogo.png';
+import HomeIcon from './HomeIcon.jsx';
+import SearchIcon from './SearchIcon.jsx';
+import Bag from './Bag.jsx';
+import UserIcon from './UserIcon';
 const Footer = () =>{
     return(
         <div>
@@ -10,19 +14,19 @@ const Footer = () =>{
                 <div className="col-lg-2 col-md-2 col-sm-12">
                   <img src={logo} alt="" className="dtop footer-logo img-fluid"/>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-12 wborder">
+                <div className="col-lg-2 col-md-2 col-sm-12  mt-2">
                   <a href="/">POLICIES</a>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-12 wborder">
+                <div className="col-lg-2 col-md-2 col-sm-12  mt-2">
                   <a href="/">ABOUT US</a>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-12 wborder">
+                <div className="col-lg-2 col-md-2 col-sm-12  mt-2">
                   <a href="/">OUR BENEFITS</a>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-12 wborder">
+                <div className="col-lg-2 col-md-2 col-sm-12  mt-2">
                   <a href="/">FAQ</a>
                 </div>
-                <div className="col-lg-2 col-md-2 col-sm-12">
+                <div className="col-lg-2 col-md-2 col-sm-12 mt-2">
                   <a href="/">BLOG</a>
                 </div>
               </div>
@@ -57,9 +61,11 @@ const Footer = () =>{
                     </div>
                   </div>
                 </div>
-                <div className="spacer"></div>
-                <div className="container text-center mb-5">
+                
+                <div className="container text-center">
+                  <div className="spacer"></div>
                   <small>Sample by Abhishek Iyengar</small>
+                  <br/><br/><br/><br/>
                 </div>
             </div>
             </div>
@@ -78,10 +84,10 @@ const Footer = () =>{
               <br/>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="/policies" role="button" aria-expanded="false" aria-controls="policies">
+                <a data-toggle="collapse" href="policies" role="button" aria-expanded="false" aria-controls="policies">
                   POLICIES
                 </a>
-                <a data-toggle="collapse" href="/policies" role="button" aria-expanded="false" aria-controls="policies">
+                <a data-toggle="collapse" href="policies" role="button" aria-expanded="false" aria-controls="policies">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
@@ -102,10 +108,10 @@ const Footer = () =>{
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="/aboutus" role="button" aria-expanded="false" aria-controls="aboutus">
+                <a data-toggle="collapse" href="aboutus" role="button" aria-expanded="false" aria-controls="aboutus">
                   ABOUT US
                 </a>
-                <a data-toggle="collapse" href="/aboutus" role="button" aria-expanded="false" aria-controls="aboutus">
+                <a data-toggle="collapse" href="aboutus" role="button" aria-expanded="false" aria-controls="aboutus">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
@@ -126,10 +132,10 @@ const Footer = () =>{
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="/CONTACT" role="button" aria-expanded="false" aria-controls="CONTACT">
+                <a data-toggle="collapse" href="CONTACT" role="button" aria-expanded="false" aria-controls="CONTACT">
                   CONTACT
                 </a>
-                <a data-toggle="collapse" href="/CONTACT" role="button" aria-expanded="false" aria-controls="CONTACT">
+                <a data-toggle="collapse" href="CONTACT" role="button" aria-expanded="false" aria-controls="CONTACT">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
@@ -150,10 +156,10 @@ const Footer = () =>{
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="/OURBENEFITS" role="button" aria-expanded="false" aria-controls="OURBENEFITS">
+                <a data-toggle="collapse" href="OURBENEFITS" role="button" aria-expanded="false" aria-controls="OURBENEFITS">
                   OUR BENEFITS
                 </a>
-                <a data-toggle="collapse" href="/OURBENEFITS" role="button" aria-expanded="false" aria-controls="OURBENEFITS">
+                <a data-toggle="collapse" href="OURBENEFITS" role="button" aria-expanded="false" aria-controls="OURBENEFITS">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
@@ -174,10 +180,10 @@ const Footer = () =>{
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="/FAQ" role="button" aria-expanded="false" aria-controls="FAQ">
+                <a data-toggle="collapse" href="FAQ" role="button" aria-expanded="false" aria-controls="FAQ">
                   FAQ
                 </a>
-                <a data-toggle="collapse" href="/FAQ" role="button" aria-expanded="false" aria-controls="FAQ">
+                <a data-toggle="collapse" href="FAQ" role="button" aria-expanded="false" aria-controls="FAQ">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
@@ -198,10 +204,10 @@ const Footer = () =>{
               </div>
               <br/>
               <div className="container d-flex justify-content-between">
-                <a data-toggle="collapse" href="/BLOG" role="button" aria-expanded="false" aria-controls="BLOG">
+                <a data-toggle="collapse" href="BLOG" role="button" aria-expanded="false" aria-controls="BLOG">
                   BLOG
                 </a>
-                <a data-toggle="collapse" href="/BLOG" role="button" aria-expanded="false" aria-controls="BLOG">
+                <a data-toggle="collapse" href="BLOG" role="button" aria-expanded="false" aria-controls="BLOG">
                   <i className="fas fa-plus"></i>
                 </a>
               </div>
@@ -239,24 +245,24 @@ const Footer = () =>{
           </footer>
         </div>
         <div className="mtop">
-          <nav className="fixed-bottom text-center dark customnav">
+          <nav className="fixed-bottom container text-center dark customnav">
             <div className="d-flex justify-content-between">
               <div className="container">
-                <i className="fas fa-home fa-2x fa-gradient"></i>
+                <HomeIcon />
               </div>
               <div className="container">
-                <i className="fas fa-search fa-2x"></i>
+                <SearchIcon/>
               </div>
               <div className="container">
-                <i className="fas fa-shopping-bag fa-2x"></i>
+                <Bag />
               </div>
               <div className="container">
-                <i className="fas fa-user fa-2x"></i>
+                <UserIcon/>
               </div>
             </div>
           </nav>
         </div>
-        </div>
+      </div>
     )
     
 }
