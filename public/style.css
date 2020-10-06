@@ -6,7 +6,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 img{
-    pointer-events: none;
+    pointer-events: none !important;
 }
 html,body{
     scroll-behavior: smooth;
