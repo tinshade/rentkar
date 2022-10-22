@@ -1,5 +1,5 @@
 # Rentkar | Rent Almost Anything!
-This is a sample project page for Rentkar
+This is a sample react project page for Rentkar
 
 The project can be viewed live [here](https://rentkar.netlify.com)
 
